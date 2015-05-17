@@ -1,15 +1,23 @@
 [
   {
-    "repo": "dalekjs/dalek",
-    "url": "http://dalekjs.com/"
+    "repo": "beatfactor/nightwatch",
+    "url": "http://nightwatchjs.org/"
+  },
+  {
+    "repo": "SeleniumHQ/selenium",
+    "url": "https://github.com/SeleniumHQ/selenium/blob/master/javascript/node/selenium-webdriver/README.md"
+  },
+  {
+    "repo": "webdriverio/webdriverio",
+    "url": "http://webdriver.io/"
   },
   {
     "repo": "admc/wd",
     "url": "http://admc.io/wd/"
   },
   {
-    "repo": "webdriverio/webdriverio",
-    "url": "http://webdriver.io/"
+    "repo": "dalekjs/dalek",
+    "url": "http://dalekjs.com/"
   },
   {
     "repo": "groupon/testium",
@@ -18,13 +26,5 @@
   {
     "repo": "theintern/leadfoot",
     "url": "https://theintern.github.io/leadfoot/"
-  },
-  {
-    "repo": "beatfactor/nightwatch",
-    "url": "http://nightwatchjs.org/"
-  },
-  {
-    "repo": "SeleniumHQ/selenium",
-    "url": "https://github.com/SeleniumHQ/selenium/blob/master/javascript/node/selenium-webdriver/README.md"
   }
 ]
