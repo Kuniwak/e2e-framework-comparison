@@ -1,0 +1,17 @@
+#! /bin/zsh
+
+set -e
+
+echo '| Name | Stars | Updated |'
+echo '|:-----|:------|:--------|'
+
+for json in $(cat frameworks.json | jq -c '.[]'); do
+  repo="$(echo $json | jq -r '.repo')"
+  url="$(echo $json | jq -r '.url')"
+  response="$(curl -s https://api.github.com/repos/$repo | jq -c '.')"
+
+	stars=$(echo $response | jq '.stargazers_count')
+	updated=$(echo $response | jq '.updated_at')
+
+	echo "| [$repo]($url) | $stars | $updated |"
+done
